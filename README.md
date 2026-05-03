@@ -1,6 +1,6 @@
 # Portfolio Optimization
 
-A clean Python project for mean-variance portfolio optimization. It downloads historical prices, estimates CAPM expected returns, builds a Ledoit-Wolf shrinkage covariance matrix, solves a long-only max-Sharpe portfolio, and saves the resulting weights and performance metrics to JSON.
+A clean Python project for mean-variance portfolio optimization of my 2026 StockTrack Competition Portfolio. It downloads historical prices, estimates CAPM expected returns, builds a Ledoit-Wolf shrinkage covariance matrix, solves a long-only max-Sharpe portfolio, and saves the resulting weights and performance metrics to JSON.
 
 The project also includes a monthly rebalance backtester that tracks realized performance over time.
 
@@ -57,16 +57,29 @@ from src.optimizer import optimize_portfolio
 from src.utils import pretty_print_results, save_optimization_result
 
 tickers = [
-    "AAPL",
-    "MSFT",
-    "NVDA",
-    "AMZN",
-    "GOOGL",
-    "META",
-    "JPM",
-    "V",
     "UNH",
-    "XOM",
+    "MPC",
+    "BE",
+    "VOO",
+    "AFL",
+    "JPM",
+    "VTI",
+    "GOOG",
+    "TMUS",
+    "AFRM",
+    "CMG",
+    "B",
+    "NVDA",
+    "YUM",
+    "NTR",
+    "KMI",
+    "CBRE",
+    "SHEL",
+    "XEL",
+    "SCHG",
+    "IDXX",
+    "GFI",
+    "RBLX",
 ]
 
 start_date = "2021-01-01"
