@@ -1,4 +1,4 @@
-# Portfolio Optimization
+# StockTrack Portfolio MVO Model
 
 A clean Python project for mean-variance portfolio optimization of my 2026 StockTrack Competition Portfolio. It downloads historical prices, estimates CAPM expected returns, builds a Ledoit-Wolf shrinkage covariance matrix, solves a long-only max-Sharpe portfolio, and saves the resulting weights and performance metrics to JSON.
 
