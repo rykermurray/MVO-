@@ -1,6 +1,6 @@
 {
-  "annual_volatility": 0.18634962171993155,
-  "expected_annual_return": 0.14673214675668828,
+  "annual_volatility": 0.18634961948244133,
+  "expected_annual_return": 0.14673212319443707,
   "max_weight": 0.15,
   "metadata": {
     "benchmark": "SPY",
@@ -59,7 +59,7 @@
   },
   "min_weight": 0.02,
   "risk_free_rate": 0.02,
-  "sharpe_ratio": 0.6800772954997273,
+  "sharpe_ratio": 0.6800771772242783,
   "weights": {
     "AFL": 0.040405,
     "AFRM": 0.02,
@@ -70,11 +70,11 @@
     "GFI": 0.02,
     "GOOG": 0.054438,
     "IDXX": 0.02,
-    "JPM": 0.069322,
+    "JPM": 0.069321,
     "KMI": 0.02,
     "MPC": 0.02,
     "NTR": 0.02,
-    "NVDA": 0.040937,
+    "NVDA": 0.040938,
     "RBLX": 0.02,
     "SCHG": 0.15,
     "SHEL": 0.02,
@@ -82,7 +82,7 @@
     "UNH": 0.02,
     "VOO": 0.15,
     "VTI": 0.15,
-    "XEL": 0.034176,
+    "XEL": 0.034177,
     "YUM": 0.026293
   }
 }
